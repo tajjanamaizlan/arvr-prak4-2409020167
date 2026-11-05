@@ -3,8 +3,8 @@ import * as THREE from 'three';
 import { MindARThree } from '../vendor/mindar/mindar-image-three.prod.js';
 import { setStatus, setupStartButton } from './common.js';
 
-const TARGET_SRC = './targets/target-card.mind'; // hasil kompilasi target-card.png
-const TARGET_ASPECT = 372 / 674; // tinggi/lebar gambar target (674x372 px)
+const TARGET_SRC = './targets/target-messi.mind'; // hasil kompilasi target-card.png
+const TARGET_ASPECT = 736 / 1281; // tinggi/lebar gambar target (734x413 px)
 let foundCount = 0;
 
 async function start() {
